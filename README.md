@@ -2,16 +2,6 @@
 
 Welcome to the Conversational GitHub Chatbot project! This project is designed to create an interactive chatbot that can answer questions related to GitHub documentation using Langchain models.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Acknowledgements](#acknowledgements)
-
 ## Introduction
 
 This project leverages Langchain models and Streamlit to create a chatbot that provides insights into GitHub project documentation. The bot is built using Langchain's conversational retrieval capabilities and integrates OpenAI's embeddings for document processing.
@@ -30,17 +20,9 @@ Before you begin, ensure you have the following installed on your system:
 - Python 3.7 or later
 - Git (for cloning the repository)
 - Access to OpenAI's API (you will need an API key)
-
-## Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/conversational-github-chatbot.git
-   cd conversational-github-chatbot
    
 ## File Structure:
-.
+
 ├── app.py                # Main application code
 ├── load_docs.py          # Document loading and embedding logic
 ├── requirements.txt      # List of Python dependencies
