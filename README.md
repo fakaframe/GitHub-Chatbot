@@ -23,11 +23,11 @@ Before you begin, ensure you have the following installed on your system:
    
 ## File Structure:
 
-├── app.py                # Main application code
-├── load_docs.py          # Document loading and embedding logic
-├── requirements.txt      # List of Python dependencies
-├── .env                  # Environment variables for storing API keys
-└── docs/                 # Directory containing markdown documents to be processed
+ ─ app.py                # Main application code
+ ─ load_docs.py          # Document loading and embedding logic
+ ─ requirements.txt      # List of Python dependencies
+ ─ .env                  # Environment variables for storing API keys
+ ─ docs/                 # Directory containing markdown documents to be processed
 
 ## Acknowledgements
  - This project utilizes the Langchain library for leveraging advanced linguistic models.
